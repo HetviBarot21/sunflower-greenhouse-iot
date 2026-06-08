@@ -62,7 +62,7 @@
 
 The MQ-5 gas sensor outputs a 0–5V analog signal, but the ESP32 ADC pins tolerate only up to 3.3V, so a direct connection would damage the pin. A voltage divider scales this signal safely down to ~3.1V.
 
-![Voltage Divider Diagram](images/image1.jpeg)
+<img src="image1.jpeg" width="400"/>
 
 ---
 
@@ -70,7 +70,7 @@ The MQ-5 gas sensor outputs a 0–5V analog signal, but the ESP32 ADC pins toler
 
 **Design:** 1 ESP32S connected to 1 MQ-5 gas sensor, 1 DHT22 temperature/humidity sensor, and 1 OLED LCD.
 
-![Architecture A Schematic](images/image2.png)
+<img src="image2.png" width="600"/>
 
 #### Component Placement
 - **ESP32 30-pin** at the centre
@@ -99,9 +99,9 @@ The MQ-5 gas sensor outputs a 0–5V analog signal, but the ESP32 ADC pins toler
 - **100nF capacitor** across MQ-5 VCC and GND
 
 #### Verification
-- All grounds share a common connection 
-- MQ-5 receives 5V; DHT22 and OLED receive 3.3V 
-- Voltage divider and pull-up resistor labelled on schematic 
+- All grounds share a common connection ✓
+- MQ-5 receives 5V; DHT22 and OLED receive 3.3V ✓
+- Voltage divider and pull-up resistor labelled on schematic ✓
 
 ---
 
@@ -109,7 +109,7 @@ The MQ-5 gas sensor outputs a 0–5V analog signal, but the ESP32 ADC pins toler
 
 **Design:** 1 ESP32S (+ MQ-5) interfaced directly with another ESP32S (+ DHT22) over UART serial communication, with TX and RX lines crossed over.
 
-![Architecture B Schematic](images/image3.png)
+<img src="image3.png" width="600"/>
 
 #### Component Placement
 - **Two** ESP32 30-pin DevKit modules: Node 1 (left), Node 2 (right)
@@ -142,7 +142,7 @@ The MQ-5 gas sensor outputs a 0–5V analog signal, but the ESP32 ADC pins toler
 
 **Design:** 1 ESP32S (+ DHT22 + Relay) connected to another ESP32S (+ MQ-5), where the relay acts as a physical bridge between the two nodes.
 
-![Architecture C Schematic](images/image4.png)
+<img src="image4.png" width="600"/>
 
 #### Component Placement
 - **Two** ESP32 30-pin DevKit modules: Node 1 (left), Node 2 (right)
@@ -179,5 +179,9 @@ The MQ-5 gas sensor outputs a 0–5V analog signal, but the ESP32 ADC pins toler
 > **Firmware note:** GPIO 16 is configured as INPUT_PULLUP. When Node 1 energises the relay, the switch closes and pulls GPIO 16 to LOW, signalling Node 2 that the relay has been activated.
 
 ---
+
 ## Evidence of Groupwork
 
+<img src="groupphoto.png" width="500"/>
+
+---
