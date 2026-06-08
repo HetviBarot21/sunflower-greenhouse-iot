@@ -10,3 +10,12 @@
 | 5 | 152322 | Omar Siddique |
 | 6 | 166539 | Stephen Nyariki |
 
+## Project Structure
+
+This repository is organised by deliverable, each with its own branch.
+
+| Branch | Deliverable | Document |
+| --- | --- | --- |
+| `deliverable-1` | Flower growth requirements, hardware components & circuit schematics | `README1.md` |
+
+---
