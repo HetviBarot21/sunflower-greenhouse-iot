@@ -30,13 +30,21 @@ With the data successfully landing in InfluxDB, we linked Grafana to the databas
 Since the cloud instances are running on temporary student accounts, we have included screenshots of the working setup below.
 
 *InfluxDB showing the raw time-series data arriving:*
+
 <img src="image5.jpeg" width="600"/>
 
 *Grafana dashboard with our three visualisations:*
+
 <img src="image3.jpeg" width="600"/>
 
 *Physical prototype connected to Wi-Fi:*
+
 <img src="image1.jpeg" width="400"/>
+
+
+*Arduino IDE and serial monitor confirming successful data writes to InfluxDB:*
+
+<img src="image2.jpeg" width="400"/>
 
 ## 5. Groupwork and Attendance
 We all met at the MakerSpace lab to integrate the Wi-Fi code and build out the Grafana dashboards. The photo below is our group evidence for the attendance requirement for the July classes.
