@@ -1,6 +1,5 @@
 # ICS 4111: Embedded Systems & IoT
 ## Semester Project Deliverable 3: Cloud Integration
-*Group 5 Lazy Lobsters*
 
 ## 1. Objective
 For this part of the project, we needed to take our sensor data and push it to the cloud for storage and visualisation. We used the physical prototype of Architecture A to get the full score on the hardware side.
@@ -52,4 +51,5 @@ Since the cloud instances are running on temporary student accounts, we have inc
 ## 5. Groupwork and Attendance
 We all met at the MakerSpace lab to integrate the Wi-Fi code and build out the Grafana dashboards. The photo below is our group evidence for the attendance requirement for the July classes.
 
-<img src="image4.jpeg" width="500"/>
+<img width="302" height="236" alt="image" src="https://github.com/user-attachments/assets/728ef400-da2d-4435-9aa8-675baaf3726b" />
+
