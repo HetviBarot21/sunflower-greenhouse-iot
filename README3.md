@@ -41,4 +41,4 @@ Since the cloud instances are running on temporary student accounts, we have inc
 ## 5. Groupwork and Attendance
 We all met at the MakerSpace lab to integrate the Wi-Fi code and build out the Grafana dashboards. The photo below is our group evidence for the attendance requirement for the July classes.
 
-<img src="group_lab_session.jpeg" width="500"/>
+<img src="image4.jpeg" width="500"/>
