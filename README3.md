@@ -29,6 +29,9 @@ With the data successfully landing in InfluxDB, we linked Grafana to the databas
 ### Screenshots and Links
 Since the cloud instances are running on temporary student accounts, we have included screenshots of the working setup below.
 
+*Wokwi Simulation Prototype:* 
+[Architecture A Cloud Integration Simulation](https://wokwi.com/projects/468891569387358209)
+
 *InfluxDB showing the raw time-series data arriving:*
 
 <img src="image5.jpeg" width="600"/>
